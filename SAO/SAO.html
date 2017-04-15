@@ -1,0 +1,287 @@
+	<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+<style>
+#p4{
+    position:absolute;
+    top:42px;
+    left:8px;
+    z-index:-1;
+}
+#toggle2{
+    position:absolute;
+    top:530px;
+    left:8px;
+    z-index:-1;
+}
+
+#next5{
+    position:absolute;
+    top:530px;
+    left:150px;
+    z-index:-1;
+	
+body{
+z-index:5;
+background-image:url('U.png');	
+}
+	</style>
+	  </head>
+	  <body style=background-image:url('背景.png');>
+	  <audio controls autoplay="autoplay" style="visibility:hidden">
+<source src="bm2.mp3" type="audio/mp3" >
+</audio>
+	  <div id="1" >
+	  <img src="A.png" style=><p>
+	  突然間，第一層魔王出現了
+	  <input type="button" class="next" id="next1" value="殺了他">
+	  </div>
+	   <div id="2" style="display:none" >
+	   <img src="B.png"><img src="C.png" id="p1" style="display:none" ><p>
+	  恭喜你成功了
+	  <input type="button" class="toggle" id="toggle1" value="確認戰利品">
+	  <input type="button" class="next" id="next2" value="下一步">
+	  </div>
+	   <div id="3" style="display:none">
+	   <img src="D.png"><p>
+	  總之經過很多事情，你遇到第74層魔王閃耀魔眼了<p>
+	  <input type="button" class="next" id="next3" value="拜託亞絲娜跟克萊茵撐10秒">
+	  </div>
+	  
+	  
+	  
+	  <div id="4" style="display:none">
+	   <img src="E.png" id="p2" style="display:none"><p>
+	  取出了逐闇者，準備使出星爆氣流斬<p>
+	  <input type="button" class="SP" id="SD1" value="帥氣登場">
+	  <input type="button" class="next" id="next4" value="使出星爆氣流斬" style="display:none">
+	  </div>
+	  
+	  	  
+	 <div id="5" style="display:none" >
+	<img src="F.png" id="p3" ><p>
+	<img src="G.png" id="p4" ><p>
+	<input type="button" class="toogle" id="toggle2" value="要更快，還要更快">
+	<input type="button" class="next" id="next5" value="好了夠快了">
+	  </div>
+	  
+	  <div id="6" style="display:none">
+	  <img src="H.png"><p>
+	  恭喜你擊敗了74層魔王
+	  <input type="button" class="next" id="next6" value="往上爬">
+	  </div>
+	  
+	  
+	  <div id="7" style="display:none">
+	  <img src="I.png"><p>
+	  靠北，公會長就是魔王茅場晶彥
+	  <input type="button" class="next" id="next7" value="殺了他">
+	  </div>
+	  
+	  
+	  <div id="8" style="display:none">
+	  <img src="J.png"><p>
+	 你太廢了，龍大便的劍斷了，準備GG
+	  <input type="button" class="next" id="next8" value="幹">
+	  </div>
+	  
+	  
+	  <div id="9" style="display:none">
+	  <img src="K.png"><p>
+	  茅場晶彥準備把你宰了
+	  <input type="button" class="next" id="next9" value="等死">
+	  </div>
+	  
+	  
+	  <div id="10" style="display:none">
+	  <img src="L.png"><p>
+	  你真的夠沒用了，你的老婆公車娜衝了出來幫你擋了一劍
+	  <input type="button" class="next" id="next10" value="尛">
+	  </div>
+	  
+	  
+	  <div id="11" style="display:none">
+	  <img src="M.png"><p>
+	  你老婆快死了
+	  <input type="button" class="next" id="next11" value="擺雖小臉">
+	  </div>
+	  
+	  <div id="12" style="display:none">
+	  <img src="N.png"><p>
+	  <input type="button" class="next" id="next12" value="下一頁">
+	  </div>
+	  
+	  <div id="13" style="display:none">
+	  <img src="O.png" id="p5"><p>
+	  <img src="P.png" id="p6" style="display:none"><p>
+	  再見了，本子天后
+	  <input type="button" class="FD1" id="fade1" value="消失"><input type="button" class="next" id="next13" value="絕望"style="display:none">
+	  </div>
+	  
+	  <div id="14" style="display:none">
+	  <img src="Q.png" ><p>
+	  還發呆啊?去死
+	  <input type="button" class="next" id="next14" value="等等">
+	  </div>
+	  
+	  	  
+	  <div id="15" style="display:none">
+	  <img src="R.png" id="p7"><p>
+	  殺了我老婆還想跑?
+	  <input type="button" class="FD2" id="toggle3" value="掙扎"><input type="button" class="next" id="next15" value="復活">
+	  </div>
+	  	  
+	  <div id="16" style="display:none">
+	  <img src="S.png" ><p>
+	  反殺成功
+	  <input type="button" class="next" id="next16" value="爽啦">
+	  </div>
+	  	  
+	  <div id="17" style="display:none">
+	  艾恩葛朗特毀滅，全員登出
+	  <img src="T.png" ><p>
+	  
+	  <input type="button" class="next" id="next17" value="恭喜破關">
+	  </div>
+	  
+	  
+	  <div id="18" style="display:none">
+	  <img src="U.png" ><p>
+	  感謝你的遊玩，寶拉愛你<input type="button" class="polla" value="噓">
+	  </div>
+	   
+
+
+	  
+		<script>
+	   $(document).ready(function() {
+			  alert('歡迎來到SWORD ART ONLINE的世界 你已經無法登出')
+
+		  $('#next1').click(function() {
+		  $('#1').hide();
+		  $('#2').show();
+		});
+		$('#next2').click(function() {
+		  $('#2').hide();
+		  $('#3').show();
+		});
+		$('#next3').click(function() {
+		  $('#3').hide();
+		  $('#4').show();
+		});
+		$('#next4').click(function() {
+		  $('#4').hide();
+		  $('#5').show();
+		});
+		$('#next5').click(function() {
+		  $('#5').hide();
+		  $('#6').show();
+		});
+		$('#next6').click(function() {
+		  $('#6').fadeOut();
+		  $('#7').fadeIn();
+		});
+		$('#next6').click(function() {
+		  $('#6').hide();
+		  $('#7').show();
+		});
+		
+		$('#next7').click(function() {
+		  $('#7').hide();
+		  $('#8').show();
+		});
+		
+		$('#next8').click(function() {
+		  $('#8').hide();
+		  $('#9').show();
+		});
+		
+		$('#next9').click(function() {
+		  $('#9').hide();
+		  $('#10').fadeIn();
+		});
+		
+		$('#next10').click(function() {
+		  $('#10').hide();
+		  $('#11').fadeIn();
+		});
+		
+		$('#next11').click(function() {
+		  $('#11').hide();
+		  $('#12').show();
+		});
+		
+		$('#next12').click(function() {
+		  $('#12').hide();
+		  $('#13').fadeIn();
+		});
+		
+		$('#next13').click(function() {
+		  $('#13').hide();
+		  $('#14').fadeIn();
+		});
+		
+		
+		
+		$('#next14').click(function() {
+		  $('#14').hide();
+		  $('#15').fadeIn();
+		});
+		
+		
+		
+		$('#next15').click(function() {
+		  $('#15').hide();
+		  $('#16').fadeIn();
+		});
+		
+		$('#next16').click(function() {
+		  $('#16').hide();
+		  $('#17').fadeIn();
+		});
+		
+		
+		$('#next17').click(function() {
+		  $('#17').slideUp();
+		  $('#18').slideDown();
+		});
+		
+		$('#toggle1').click(function(){
+		 $("#p1").slideToggle();
+		});
+
+		$('#SD1').click(function(){
+		  $("#p2").slideDown(2000);
+		  $('#SD1').hide();
+		  $('#next4').show();
+		  });
+		  
+     $('#toggle2').click(function(){
+		 $("#p3").toggle();
+		});
+		
+	$('#fade1').click(function() {
+		  $('#p5').fadeTo(2000,0);
+		  $('#fade1').hide();
+		$('#p6').show();
+		  $('#next13').show();
+		});
+		
+		
+     $('#toggle3').click(function(){
+		 $("#p7").fadeToggle();
+		});
+		
+
+	
+		
+	});
+	
+	
+		
+		</script>
+	  </body>
+	</html>
